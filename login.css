@@ -1,0 +1,136 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: cover;
+    background-position: top center;
+    background-image:url(./pictures/pngtree-rainbow-curves-abstract-colorful-background-image_2164067.jpg);
+    margin-bottom: 350px;
+
+}
+
+a {
+    color: white;
+}
+
+
+.login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 352px;
+    margin:auto;
+    height: auto;
+    margin-top: 75px;
+    border-radius: 15px;
+    border: 1px solid white;
+    backdrop-filter: blur(15px);
+    box-shadow: 0px 0px 11px rgba(234, 175,235, 0.969);
+}
+
+form{
+    margin: 35px 0px  ;
+}
+
+.heading h1 {
+    padding-bottom: 22px;
+    text-align: center;
+}
+ 
+
+.mail-input label{
+    font-weight: 600;
+}
+
+.mail-input input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 255px;
+    height: 22px;
+}
+
+.password-input label{
+    font-weight: 600;
+}
+
+.password-input input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 255px;
+    height: 22px;
+}
+
+
+.password-input{
+    border-bottom: 3px solid white;
+}
+
+
+.mail-input{
+    border-bottom: 3px solid white;
+}
+
+.password{
+ margin-top: 32px;
+
+}
+
+
+.rememberandforget{
+    margin-top: 31px;
+}
+
+
+.rememberandforget label{
+    font-size: 17px;
+}
+
+.rememberandforget a {
+    font-weight: 700;
+    padding-left: 11px;
+    text-decoration: none;
+}
+
+.button input{
+    font-weight: 700;
+    font-size: 17px;
+    cursor: pointer;
+    margin:27px 0px ;
+    border: none;
+    border-radius: 32px;
+    transition: all 0.4s linear;
+    width: 100%;
+    height: 36px;
+}
+
+.button input:hover {
+    color: white;
+    background: linear-gradient(45deg, #e351e4, #5934A3);
+}
+ .register p a {
+    font-weight: 600;
+    padding-left: 11px;
+    font-size: 19px;
+    text-decoration: none;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
